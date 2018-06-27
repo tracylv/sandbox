@@ -4,7 +4,7 @@
     <username></username>
     <password></password>
     <server>https://www.globalyzer.com/gzserver</server>
-    <use-local-rulesets>true</use-local-rulesets>
+    <!-- <use-local-rulesets>true</use-local-rulesets> -->
   </login>
 
   <project-path>/var/lib/jenkins/jobs/Lingoport.Lite/workspace</project-path>
@@ -17,22 +17,22 @@
     <scan>
       <!-- create and execute a single scan with this info -->
       <scan-name>Java</scan-name>
-      <ruleset-name>Java Rule Set</ruleset-name>
-      <ruleset-owner>demo@lingoport.com</ruleset-owner>
+      <ruleset-name>Java</ruleset-name>
+      <ruleset-owner>tracy.lv@blackboard.com</ruleset-owner>
       <scan-items/>
     </scan>
     <scan>
       <!-- create and execute a single scan with this info -->
-      <scan-name>Csharp</scan-name>
-      <ruleset-name>Csharp for Demo</ruleset-name>
-      <ruleset-owner>demo@lingoport.com</ruleset-owner>
+      <scan-name>CSharp</scan-name>
+      <ruleset-name>CSharp</ruleset-name>
+      <ruleset-owner>tracy.lv@blackboard.com</ruleset-owner>
       <scan-items/>
     </scan>
     <scan>
       <!-- create and execute a single scan with this info -->
       <scan-name>JavaScript</scan-name>
-      <ruleset-name>Javascript Example</ruleset-name>
-      <ruleset-owner>demo@lingoport.com</ruleset-owner>
+      <ruleset-name>Javascript</ruleset-name>
+      <ruleset-owner>tracy.lv@blackboard.com</ruleset-owner>
       <scan-items/>
     </scan>
   </scans>
