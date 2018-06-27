@@ -49,8 +49,8 @@
     </scan>
     <scan>
       <scan-name>C# Scan</scan-name>
-      <ruleset-name>CSharp Sandbox</ruleset-name>
-      <ruleset-owner>olibouban@lingoport.com</ruleset-owner>
+      <ruleset-name>CSharp</ruleset-name>
+      <ruleset-owner>tracy.lv@blackboard.com</ruleset-owner>
       <encoding>systemDefault</encoding>
       <checks>
         <embedded-strings>true</embedded-strings>
