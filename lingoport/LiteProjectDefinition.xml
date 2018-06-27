@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <gzproject>
   <login>
+    <!--
     <username></username>
     <password></password>
     <server>https://www.globalyzer.com/gzserver</server>
+    -->
     <use-local-rulesets>true</use-local-rulesets>
   </login>
 
