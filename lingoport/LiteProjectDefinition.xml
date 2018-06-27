@@ -13,28 +13,95 @@
 
   <report-path>/var/lib/jenkins/Lingoport_Data/Dashboard/Projects/Lingoport.Lite/GlobalyzerScans</report-path>
   <report-type>ScanDetailedXML</report-type>
-
+<!--
   <scans>
     <scan>
-      <!-- create and execute a single scan with this info -->
+
       <scan-name>Java</scan-name>
       <ruleset-name>Java</ruleset-name>
       <ruleset-owner>tracy.lv@blackboard.com</ruleset-owner>
       <scan-items/>
     </scan>
     <scan>
-      <!-- create and execute a single scan with this info -->
+    
       <scan-name>CSharp</scan-name>
       <ruleset-name>CSharp</ruleset-name>
       <ruleset-owner>tracy.lv@blackboard.com</ruleset-owner>
       <scan-items/>
     </scan>
     <scan>
-      <!-- create and execute a single scan with this info -->
+ 
       <scan-name>JavaScript</scan-name>
       <ruleset-name>Javascript</ruleset-name>
       <ruleset-owner>tracy.lv@blackboard.com</ruleset-owner>
       <scan-items/>
     </scan>
   </scans>
+-->
+    <scans>
+    <scan>
+      <scan-name>Java Scan</scan-name>
+      <ruleset-name>Java Sandbox</ruleset-name>
+      <ruleset-owner>olibouban@lingoport.com</ruleset-owner>
+      <encoding>systemDefault</encoding>
+      <checks>
+        <embedded-strings>true</embedded-strings>
+        <locale-sensitive-methods>true</locale-sensitive-methods>
+        <general-patterns>true</general-patterns>
+        <static-file-references>true</static-file-references>
+      </checks>
+      <comments>
+        <todo>GLOBALYZER_TODO</todo>
+        <ignore-next-line>GLOBALYZER_IGNORE_NEXT_LINE</ignore-next-line>
+        <start-ignore>GLOBALYZER_START_IGNORE</start-ignore>
+        <end-ignore>GLOBALYZER_END_IGNORE</end-ignore>
+      </comments>
+      <scan-items>
+        <item>java</item>
+      </scan-items>
+    </scan>
+    <scan>
+      <scan-name>C# Scan</scan-name>
+      <ruleset-name>CSharp Sandbox</ruleset-name>
+      <ruleset-owner>olibouban@lingoport.com</ruleset-owner>
+      <encoding>systemDefault</encoding>
+      <checks>
+        <embedded-strings>true</embedded-strings>
+        <locale-sensitive-methods>true</locale-sensitive-methods>
+        <general-patterns>true</general-patterns>
+        <static-file-references>true</static-file-references>
+      </checks>
+      <comments>
+        <todo>GLOBALYZER_TODO</todo>
+        <ignore-next-line>GLOBALYZER_IGNORE_NEXT_LINE</ignore-next-line>
+        <start-ignore>GLOBALYZER_START_IGNORE</start-ignore>
+        <end-ignore>GLOBALYZER_END_IGNORE</end-ignore>
+      </comments>
+      <scan-items>
+        <item>csharp</item>
+      </scan-items>
+    </scan>
+    <scan>
+      <scan-name>JS Scan</scan-name>
+      <ruleset-name>JS Sandbox</ruleset-name>
+      <ruleset-owner>olibouban@lingoport.com</ruleset-owner>
+      <encoding>systemDefault</encoding>
+      <checks>
+        <embedded-strings>true</embedded-strings>
+        <locale-sensitive-methods>true</locale-sensitive-methods>
+        <general-patterns>true</general-patterns>
+        <static-file-references>true</static-file-references>
+      </checks>
+      <comments>
+        <todo>GLOBALYZER_TODO</todo>
+        <ignore-next-line>GLOBALYZER_IGNORE_NEXT_LINE</ignore-next-line>
+        <start-ignore>GLOBALYZER_START_IGNORE</start-ignore>
+        <end-ignore>GLOBALYZER_END_IGNORE</end-ignore>
+      </comments>
+      <scan-items>
+        <item>javascript</item>
+      </scan-items>
+    </scan>
+  </scans>
+
 </gzproject>
