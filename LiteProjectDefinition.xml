@@ -3,8 +3,7 @@
   <login>
     <username></username>
     <password></password>
-    <server></server>
-    <!-- <server>https://www.globalyzer.com/gzserver</server> -->
+    <server>https://www.globalyzer.com/gzserver</server>
     <use-local-rulesets>true</use-local-rulesets>
   </login>
 
