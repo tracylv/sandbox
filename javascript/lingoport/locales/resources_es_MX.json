@@ -1,6 +1,8 @@
 {
-"_LRM_PKTAG631":"SampleLITELRM_4_15 - FULL-FILE",
+  "_LRM_PKTAG705": "SampleLITELRM_6_15 - CHANGES-ONLY",
   "key1": "This is new key 1",
-  "key2": "This is new key 2",
-  "key3": "This is new key 3 3 3"
+  "key2": "This is new key 2 update",
+  "key3": "This is new key 3 3 3",
+  "key4": "This is new key 4",
+  "key5": "This is new key 5"
 }
