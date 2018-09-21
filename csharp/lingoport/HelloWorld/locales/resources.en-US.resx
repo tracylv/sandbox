@@ -42,7 +42,9 @@
     <data name="DEMO_KEY_1" xml:space="preserve"><value>This is some text 1</value></data>
     <data name="DEMO_KEY_2" xml:space="preserve"><value>This is more text 2</value></data>
     <data name="DEMO_KEY_3" xml:space="preserve"><value>This is some text 3</value></data>
-    <data name="DEMO_KEY_4" xml:space="preserve"><value>This is more text 4</value></data>
+    <data name="DEMO_KEY_4" xml:space="preserve"><value>This is more text 4 update</value></data>
+    <data name="DEMO_KEY_5" xml:space="preserve"><value>This is more text 5</value></data>
+    <data name="DEMO_KEY_6" xml:space="preserve"><value>This is more text 6</value></data>
 </root>
 
 
